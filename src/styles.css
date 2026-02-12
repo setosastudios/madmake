@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #120a04;
+  color: #f9dca5;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+#game {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+#hud {
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 198, 127, 0.5);
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+}
+
+#hud h1 {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+}
+
+#hud p {
+  margin: 0.1rem 0;
+  font-size: 0.8rem;
+}
